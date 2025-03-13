@@ -68,7 +68,15 @@ const EventPlanner = () => {
                     <p className="author">- Laurent Daniel</p>
                 </div>
             </section>
-            <section className='contact'></section>
+            <section className='contact'>
+                <h2>Contact Us</h2>
+                <form>
+                    <input type="text" placeholder="Name" />
+                    <input type="email" placeholder="Email" />
+                    <textarea placeholder="Message"></textarea>
+                    <button className="submit-button">Send</button>
+                </form>
+            </section>
         </div>
     );
 };
